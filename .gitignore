@@ -22,7 +22,7 @@ go.work
 /Godeps/
 
 # IDE
-/.idea/
+.idea/*
 
 # Log
-/log/
+log/*
