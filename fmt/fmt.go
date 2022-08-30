@@ -10,7 +10,7 @@ var Logger *log.Logger //日志
 
 // 构造函数
 func init() {
-	file, err := os.OpenFile("trace.txt", os.O_CREATE|os.O_RDWR|os.O_APPEND, 0666)
+	file, err := os.OpenFile("log/trace.txt", os.O_CREATE|os.O_RDWR|os.O_APPEND, 0666)
 	if err != nil {
 		panic(err)
 	}
